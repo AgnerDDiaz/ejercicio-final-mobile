@@ -1,0 +1,47 @@
+name: short_time_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.3
+  image_picker: ^0.8.7+4
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  http: ^1.2.2
+  shared_preferences: ^2.1.0
+  intl: ^0.18.0
+  table_calendar: ^3.0.6 # Reemplaza con la última versión disponible
+  flutter_secure_storage: ^9.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/Short_Time Logo Claro.jpg
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/test_data.json
+    - assets/profile_pics/
+    - assets/icon/
+    - assets/short_time_assets/ImagenLocal.jpg
+    - assets/profile_pics/person_cesare.jpeg
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets\fonts\Inter\Inter-VariableFont_opsz,wght.ttf
